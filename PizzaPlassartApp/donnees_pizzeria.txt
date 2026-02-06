@@ -1,0 +1,36 @@
+INGREDIENT;Tomate;0.5
+INGREDIENT;Fromage;2.0
+INGREDIENT;Jambon;1.5
+INGREDIENT;Champignon;0.8
+INGREDIENT;Olives;0.4
+INGREDIENT;Oignons;0.3
+INGREDIENT;Poivrons;0.6
+INGREDIENT;Anchois;1.2
+INGREDIENT;Mozzarella;1.0
+INGREDIENT;Chorizo;1.4
+INGREDIENT;Oeuf;0.9
+INGREDIENT;Fromage de chevre;4.0
+PIZZA;Margherita;Vegetarienne;9.0;null;Tomate;Fromage;Mozzarella
+PIZZA;Napolitaine;Regionale;13.0;null;Tomate;Anchois;Olives
+PIZZA;4 fromages;Vegetarienne;9.1;H:\Téléchargements\Capture d’écran 2026-01-09 082101.png;Fromage;Tomate;Fromage de chevre
+PIZZA;Vegetarienne;Vegetarienne;11.5;null;Tomate;Fromage;Poivrons;Oignons;Olives
+PIZZA;Reine;Viande;12.5;null;Tomate;Fromage;Jambon;Champignon
+PIZZA;Royale;Viande;14.0;null;Tomate;Fromage;Jambon;Champignon;Oeuf
+CLIENT;ksider@test.com;password123;Sider;Kevin;10 Rue de Java;22
+CLIENT;lmontay@test.com;password123;Montay;Léo;40 Impasse du Git;24
+CLIENT;kyaouanc@test.com;password123;Yaouanc;Kevin;20 Avenue du Swing;23
+CLIENT;test@gmail.com;password123;test;test;321 rue du foyer;21
+CLIENT;rladrait@test.com;password123;Ladrait;Rayan;30 Boulevard du FXML;21
+INTERDICTION;Anchois;Viande
+INTERDICTION;Jambon;Vegetarienne
+INTERDICTION;Chorizo;Vegetarienne
+COMMANDE;ksider@test.com;TRAITEE;Reine;Royale
+COMMANDE;lmontay@test.com;TRAITEE;Vegetarienne
+COMMANDE;kyaouanc@test.com;TRAITEE;Margherita
+COMMANDE;test@gmail.com;TRAITEE;4 fromages;Vegetarienne
+COMMANDE;rladrait@test.com;TRAITEE;Napolitaine
+EVALUATION;Margherita;kyaouanc@test.com;4;Un classique très bien exécuté.
+EVALUATION;Napolitaine;rladrait@test.com;2;Trop salée à mon goût à cause des anchois.
+EVALUATION;4 fromages;test@gmail.com;5;tres bien !
+EVALUATION;Reine;ksider@test.com;5;Excellente pizza, la pâte est parfaite !
+EVALUATION;Royale;ksider@test.com;4;Très copieuse.
